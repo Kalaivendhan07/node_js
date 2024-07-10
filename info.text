@@ -1,0 +1,8 @@
+
+Node.js is an open source server environment that uses JavaScript on server. A Node.js application runs within a single process, without generating a new thread for each request. Node.js includes asynchronous I/O primitives as a part of its standard library, which prevents JavaScript code from blocking and, in general, libraries in Node.js are developed using non-blocking paradigms. This makes blocking behaviour the exception instead of the rule.
+
+
+It is developed by Ryan Dahi in the year 2009 and v22.4.1 is the latest version of Node.js. Because it is cross-platform one can easily run on Windows, Linux, Unix, macOS and more.
+
+
+

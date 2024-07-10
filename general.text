@@ -1,0 +1,44 @@
+
+Find the process using the port
+
+ sudo lsof -i :8080
+
+ Kill the process
+ sudo kill -9 <PID>
+Replace <PID> with the actual process ID from the previous command.
+
+//npm - node package manager
+
+Creating a Node Project:
+To create a Node project, npm init is used in the folder in which user want to create project. The npm command line will ask a number of questions like name, license, scripts, description, author, keywords, version, main file etc. After npm is done creating the project, a package.json file will be visible in project folder as a proof that the project has been initialized.
+
+npm -v
+
+npm update npm@latest -g
+
+//installation in linux
+sudo apt install nodejs
+
+sudo apt install npm
+
+Key features of Node.js
+Non-blocking I/O: Node.js is asynchronous, enabling efficient handling of concurrent requests.
+Event-driven architecture: Developers can create event-driven applications using callbacks and event emitters.
+Extensive module ecosystem: npm (Node Package Manager) provides access to thousands of reusable packages.
+
+
+
+Core Modules
+Node.js includes several core modules for essential functionality. Some commonly used ones are:
+
+fs (File System): Read/write files and directories.
+http: Create HTTP servers and clients.
+path: Manipulate file paths.
+events: Implement custom event handling.
+
+
+Common Use Cases
+Building RESTful APIs
+Real-time applications using WebSockets
+Microservices architecture
+Serverless functions with AWS Lambda
