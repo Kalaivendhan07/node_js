@@ -6,3 +6,49 @@ It is developed by Ryan Dahi in the year 2009 and v22.4.1 is the latest version 
 
 
 
+Why node js ?
+
+Node.js is famous due to the use of JavaScript across the entire stack, asynchronous programming model for handling multiple requests simultaneously, fast execution due to the V8 engine, large and active community support, scalability for real-time applications, cross-platform compatibility, and its role in enabling full-stack development. All these features make Node.js very fast and popular.
+
+Key Features of Node.js:
+JavaScript Everywhere
+Asynchronous Programming Model
+Fast Execution
+Large and Active Community
+Scalability
+Cross-Platform Compatibility
+
+
+
+
+Node Js Basics:::
+
+Key features of Node.js:
+
+Non-blocking I/O: Node.js is asynchronous, enabling efficient handling of concurrent requests.
+Event-driven architecture: Developers can create event-driven applications using callbacks and event emitters.
+Extensive module ecosystem: npm (Node Package Manager) provides access to thousands of reusable packages.
+
+Core Modules
+Node.js includes several core modules for essential functionality. Some commonly used ones are:
+
+fs (File System): Read/write files and directories.
+http: Create HTTP servers and clients.
+path: Manipulate file paths.
+events: Implement custom event handling.
+
+Datatypes in Node.js
+Node.js contains various types of data types similar to JavaScript.
+
+Boolean
+Undefined
+Null
+String
+Number
+Loose Typing: Node.js supports loose typing, which means you don’t need to specify what type of information will be stored in a variable in advance. We use the var and let keywords in Node.js declare any type of variable. Examples are given below: 
+
+Common Use Cases:::
+Building RESTful APIs
+Real-time applications using WebSockets
+Microservices architecture
+Serverless functions with AWS Lambda
