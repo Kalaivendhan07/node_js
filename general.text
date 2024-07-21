@@ -42,3 +42,11 @@ Building RESTful APIs
 Real-time applications using WebSockets
 Microservices architecture
 Serverless functions with AWS Lambda
+
+
+
+npm install express dotenv express-handlebars body-parseurl
+
+npm install --save-dev nodemon
+
+echo off --->hiding terminal mode
