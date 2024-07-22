@@ -52,3 +52,36 @@ Building RESTful APIs
 Real-time applications using WebSockets
 Microservices architecture
 Serverless functions with AWS Lambda
+
+
+
+
+//freecode camp notes
+
+cd -- change directory
+
+events module and events emitter class:::::
+
+working with read line module::::::
+=>process is a global object of node js
+=>\n -->next line
+=>readline having extends of events module
+
+
+file module :::
+//write file
+//read file
+//rename 
+//update 
+//delete
+
+
+working with readable and writtable streams :::
+In Node.js, streams are an essential concept for handling I/O operations efficiently. Streams can be readable, writable, or both. They provide a way to work with large data sets by processing data in chunks rather than loading it all into memory at once.
+
+pipe and pipe chainning:::
+The .pipe() method is a powerful feature in Node.js that allows you to connect readable streams to writable streams, making it easy to process data in chunks. This is particularly useful for tasks like file I/O, data compression, and network operations.
+
+Pipe chaining allows you to connect multiple streams together, where the output of one stream becomes the input of the next. This is useful for processing data through multiple stages, such as reading from a file, compressing the data, and then writing it to another file.
+
+http:::
