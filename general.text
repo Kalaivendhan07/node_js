@@ -50,3 +50,6 @@ npm install express dotenv express-handlebars body-parseurl
 npm install --save-dev nodemon
 
 echo off --->hiding terminal mode
+
+
+///////body parser////////
