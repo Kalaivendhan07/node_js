@@ -85,3 +85,27 @@ The .pipe() method is a powerful feature in Node.js that allows you to connect r
 Pipe chaining allows you to connect multiple streams together, where the output of one stream becomes the input of the next. This is useful for processing data through multiple stages, such as reading from a file, compressing the data, and then writing it to another file.
 
 http:::
+
+serving static files with http and file system:::
+
+
+//Package.json:::::
+
+package.json holding meta data of our project
+
+npm init creating package.json
+
+npm uninstall name
+
+semantic versionning:::::
+'^4.17.8'=>major.minor.path-----^ meaning------only can change this 4.x.x
+'~4.17.8'=>major.minor.path-----~ meaning------only can change this 4.17.x
+
+
+express:::::::::
+
+serving static files with express::::
+
+http post request (form data) using express and body parser:::
+
+validation using joi::::
